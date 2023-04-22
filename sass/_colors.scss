@@ -1,0 +1,39 @@
+$main-color: #1755e7;
+$secondary-color: #164dcc;
+$pure-white: #fff;
+$light-white: #eee;
+$dark: #2e2e2e;
+$green-color: #00ffaa;
+$green-color-hover: #0fe29c;
+
+$light-white-gradient: linear-gradient(
+  140deg,
+  rgb(238, 241, 247, 0.7) 40%,
+  rgb(0, 100, 157, 0.7) 90%
+);
+$nav-color: linear-gradient(45deg, rgba(254, 254, 254), rgba(254, 254, 254));
+$purple-gradient: linear-gradient(
+  45deg,
+  rgba(190, 10, 214, 0.75),
+  rgba(68, 0, 255, 0.75)
+);
+$blue-gradient-solid: linear-gradient(
+  45deg,
+  rgb(20, 105, 241),
+  rgb(42, 10, 184)
+);
+$light-blue-gradient-solid: radial-gradient(
+  circle at top right,
+  rgb(0, 78, 255) 0%,
+  rgb(0, 212, 255) 100%
+);
+$services-color: radial-gradient(
+  circle at top right,
+  rgb(238, 241, 247) 80%,
+  rgb(0, 100, 157) 40%
+);
+$price-color: linear-gradient(
+  180deg,
+  rgb(1, 119, 175) 35%,
+  rgb(255, 255, 255) 35%
+);

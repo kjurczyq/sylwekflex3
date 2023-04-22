@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Serwis komputerowy Garwolin - naprawa laptopów | MainBoard</title>
+  </head>
+  <body>
+    <button class="burger-btn">
+      <div class="burger-btn__box">
+        <div class="burger-btn__bars"></div>
+      </div>
+    </button>
+    <img class="logo" src="./img/logo_git.webp" alt="logo firmy MainBoard" />
+    <nav class="nav">
+      <div class="nav__items">
+        <a href="#start" class="nav__item hight-nav">Start</a>
+        <a href="#aboutas" class="nav__item">O nas</a>
+        <a href="#services" class="nav__item">Usługi</a>
+        <a href="#price" class="nav__item">Ceny</a>
+        <a href="#contact" class="nav__item">Kontakt</a>
+      </div>
+    </nav>
+    <header class="header section" id="start">
+      <h1 class="header__heading">
+        Profeslonalna naprawa komputerów oraz elektroniki
+      </h1>
+      <p class="header__text">szybko, sprawnie i tanio</p>
+      <div class="arrow-down">
+        <a href="#aboutas" class="arrow-btn"></a>
+        <img class='arrow' src="./icons/arrow-down-icon.webp" alt="animowana strzałka">
+      </div>
+      <a href="#aboutas" class="header__btn btn-animation">Poznaj nas</a>
+    </header>
+
+    <main class="main" id="aboutas">
+      <section class="aboutas section-padding section white-section">
+        <div class="wrapper">
+          <h2 class="section-aboutas">o nas</h2>
+          <div class="aboutas__box">
+            <div class="aboutas__box-img aboutas__box-img--right">
+              <img
+                src="./img/Sylwek.webp"
+                alt="Zdjęcie osoby"
+                class="aboutas__img"
+              />
+            </div>
+            <div class="aboutas__box-text">
+              <h3 class="aboutas__title">Wieloletnie doświadczenie</h3>
+              <p class="aboutas__text">
+                Firma MainBoard od około 10 lat zajmuję się pełną, profesjonalną
+                naprawą komputerów, płyt głównych oraz wymianą układów BGA.
+                Posiadamy niezbędne narzędzia oraz części, które pomogą usunąć
+                awarię spowodowane zalaniem urządzenia lub zbiciem wyświetlacza
+                monitora. Na co dzień wykorzystujemy mikroskop oraz niezbędne
+                narzędzia potrzebne do fachowej oceny i naprawy powierzonych nam
+                sprzętów. Ponadto posiadamy konieczną dokumentacje techniczną,
+                która zapewnia kompatybilność wszystkich napraw. Schemat takiego
+                działania zapewnia pełną zgodność wszystkich ścieżek zasilania
+                oraz komponentów z oryginalnym zamysłem producenta. Swoje
+                naprawy przeprowadzamy rzetelnie oraz trwale. Na wszystkie swoje
+                usługi wystawiamy swoim klientom gwarancje oraz pełne wsparcie.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero-img section">
+        <div class="white-block white-block-left"></div>
+        <div class="white-block white-block-right"></div>
+        <p class="hero-img__title">w swojej pracy kierujemy się</p>
+        <hr />
+        <div class="myjob-container">
+          <div class="myjob-passion myjob-box">
+            <h3>pasją</h3>
+            <div class="passion">
+              <i class="a"
+                ><img
+                  class="img-myjob"
+                  src="./icons/improvement-performance-icon.png"
+                  alt="ikona przedstawiająca poruszające się zębatki"
+              /></i>
+            </div>
+          </div>
+          <div class="myjob-involvement myjob-box">
+            <h3>zaangażowaniem</h3>
+            <div class="involvement">
+              <img
+                class="img-myjob"
+                src="./icons/information-technology-icon.png"
+                alt="ikona przedstawiająca komputer"
+              />
+            </div>
+          </div>
+          <div class="myjob-honesty myjob-box">
+            <h3>uczciwością</h3>
+            <div class="honesty">
+              <img class="img-myjob" src="./icons/microservice-icon.png" 
+              alt="ikona przedstawiająca zębatki"/>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section
+        class="services section-padding section white-section"
+        id="services"
+      >
+        <div class="wrapper">
+          <h2 class="services-description">nasze usługi obejmują naprawę</h2>
+
+          <div class="services__cards">
+            <div class="services__card" onclick="void(0)">
+              <div class="services__card-img services__card-img--first">
+                <h3 class="services__card-img-title">laptopów</h3>
+                <p class="services__card-img-info">sprawdź</p>
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-info-title">laptopy</h3>
+                <ul class="services__card-info-list">
+                  <li class="services__card-info-list-item">Apple</li>
+                  <li class="services__card-info-list-item">Asus</li>
+                  <li class="services__card-info-list-item">Lenovo</li>
+                  <li class="services__card-info-list-item">Dell</li>
+                  <li class="services__card-info-list-item">
+                    oraz pozostałe np. HP, Acer, LG, Microsoft.
+                  </li>
+                </ul>
+                <a  href="#contact">
+                <button href="#contact" class="services__card-info-btn btn-animation">
+                  sprawdź
+                </button>
+              </a>
+              </div>
+            </div>
+            <div class="services__card" onclick="void(0)">
+              <div class="services__card-img services__card-img--second">
+                <h3 class="services__card-img-title">
+                  komputerów stacjonarnych
+                </h3>
+                <p class="services__card-img-info">sprawdź</p>
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-info-title">podzespoły</h3>
+                <ul class="services__card-info-list">
+                  <li class="services__card-info-list-item">intel</li>
+                  <li class="services__card-info-list-item">amd</li>
+                  <li class="services__card-info-list-item">nvidia</li>
+                  <li class="services__card-info-list-item">radeon</li>
+                  <li class="services__card-info-list-item">
+                    oraz pozostałe np. wymiana pamięci RAM lub dysku twardego.
+                  </li>
+                </ul>
+                <a  href="#contact">
+                <button class="services__card-info-btn btn-animation">
+                  sprawdź
+                </button>
+              </a>
+              </div>
+            </div>
+            <div class="services__card" onclick="void(0)">
+              <div class="services__card-img services__card-img--third">
+                <h3 class="services__card-img-title">elektroniki</h3>
+                <p class="services__card-img-info">sprawdź</p>
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-info-title">komputerów</h3>
+                <ul class="services__card-info-list">
+                  <li class="services__card-info-list-item">xbox</li>
+                  <li class="services__card-info-list-item">play station</li>
+                  <li class="services__card-info-list-item">zasilacze</li>
+                  <li class="services__card-info-list-item">kontrolery</li>
+                  <li class="services__card-info-list-item">
+                    oraz pozostałe np. HP, Acer, LG, Microsoft.
+                  </li>
+                </ul>
+                <a href="#contact">
+                <button class="services__card-info-btn btn-animation">
+                  sprawdź
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="white-block white-block-right price-block"></div>
+      <section class="price section" id="price">
+        <h2 class="h2-price">ceny</h2>
+        <div class="wrapper">
+          <div class="main-price-box">
+            <div class="price__one box-price">
+              <h3>Płyta główna</h3>
+              <hr class="price-hr" />
+              <p class="price-p"><span>Trudność: </span>Średnia</p>
+              <p class="price-p"><span>Czas: </span>10 min - 2 h</p>
+              <p class="price-p"><span>Cena: </span>50-200 zł</p>
+              <button class="btn-price" onclick="displayMessage()">
+                Zamawiam
+              </button>
+            </div>
+            <div class="price__two box-price box-price-main">
+              <h3>Pełna wycena</h3>
+              <hr class="price-hr" />
+              <p class="price-p"><span>Trudność: </span>Mała - Wysoka</p>
+              <p class="price-p"><span>Czas: </span>5 min - 24 h</p>
+              <p class="price-p"><span>Cena: </span>10-1500 zł</p>
+              <button class="btn-price-main" onclick="displayMessage()">
+                Zamawiam
+              </button>
+            </div>
+            <div class="price__three box-price">
+              <h3>Ekran</h3>
+              <hr class="price-hr" />
+              <p class="price-p"><span>Trudność: </span>Mała</p>
+              <p class="price-p"><span>Czas: </span>10 min - 3 h</p>
+              <p class="price-p"><span>Cena: </span>50-700 zł</p>
+              <button class="btn-price" onclick="displayMessage()">
+                Zamawiam
+              </button>
+            </div>
+            <div class="price__four box-price">
+              <h3>Grafika</h3>
+              <hr class="price-hr" />
+              <p class="price-p"><span>Trudność: </span>Duża</p>
+              <p class="price-p"><span>Czas: </span>10 min - 24 h</p>
+              <p class="price-p"><span>Cena: </span>50-800 zł</p>
+              <button class="btn-price" onclick="displayMessage()">
+                Zamawiam
+              </button>
+            </div>
+            <div class="price__five box-price">
+              <h3>Zasilanie</h3>
+              <hr class="price-hr" />
+              <p class="price-p"><span>Trudność: </span>Średnia</p>
+              <p class="price-p"><span>Czas: </span>10 min - 5 h</p>
+              <p class="price-p"><span>Cena: </span>50-400 zł</p>
+              <button class="btn-price" onclick="displayMessage()">
+                Zamawiam
+              </button>
+            </div>
+
+            <script>
+              function displayMessage() {
+                alert("Przed zakupem proszę o kontakt tel. 696 868 360");
+              }
+            </script>
+          </div>
+        </div>
+      </section>
+      <div class="white-block eh"></div>
+      <section class="reviews section-padding white-section" id="rewiews">
+        <h2 class="h2-reviews">opinie</h2>
+        <div class="wrapper">
+          <div class="reviews_boxes">
+            <div class="reviews_box reviews-one">
+              <div class="reviews__box-img">
+                <img src="./img/rev1.webp" alt="pozytywny komentarz wystawiony przez klineta nr 1" />
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__box-img">
+                <img src="./img/rev2.webp" alt="pozytywny komentarz wystawiony przez klineta nr 2" />
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__box-img">
+                <img src="./img/rev3.webp" alt="pozytywny komentarz wystawiony przez klineta nr 3" />
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__box-img">
+                <img src="./img/rev4.webp" alt="pozytywny komentarz wystawiony przez klineta nr 4" />
+              </div>
+            </div>
+            <div class="reviews__box">
+              <div class="reviews__box-img">
+                <img src="./img/rev5.webp" alt="pozytywny komentarz wystawiony przez klineta nr 5" />
+              </div>
+            </div>
+          </div>
+          <div class="white-block white-block-left a"></div>
+        </div>
+      </section>
+      <div class="white-block white-block-left a"></div>
+      <div class="white-block contact-line">
+      </div>
+      <section class="contact section-padding white-section" id="contact">
+          <h2 class="h2-contact">kontakt</h2>
+          <p class="contact-p">Prosty dojazd lub wysyłka kurierska</p>  
+        <div class="wrapper">
+          <div class="reviews_boxes">
+            <div class="img-localisation">
+              <img  class='loc-img' src="./img/localization-img-2.webp" alt="fotografia przedstawiająca znaczek lokalizacji">
+            </div>
+            <div class="img-comp">
+              <img  class='co-img' src="./img/half-circle-img.webp"alt="fotografia przedstawiająca znaczek lokalizacji w połowie">
+            </div> 
+               <div class="map-1">
+                    <iframe class="mymap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.746043529678!2d21.60715635171688!3d51.88384807959909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4718c722933f1cf9%3A0x5e9d78d9de56021f!2sLucin%2020L%2C%2008-400%20Garwolin!5e0!3m2!1spl!2spl!4v1676190726991!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="contact-h3">
+                         <h3>Dane do wysyłki</h3>
+                         <p class="contact-p-1">
+                              <img class="ico-phone" src="./icons/location-icon.webp" alt="ikona telefonu">
+                              Lucin 20L</p>
+                         <p class="contact-p-1">08-400 Garwolin</p>
+                         <p class="contact-p-1">
+                              <img class="ico-phone" src="./icons/email-ico.webp" alt="ikona emaila">
+                              
+                              sylwek24@vp.pl</p>
+                         
+                         <p class="contact-p-1">
+                              <img class="ico-phone" src="./icons/call-icon.webp" alt="ikona telefonu">
+                              
+                         <span class="spant-phonenr">
+                              696 868 360</span>
+                              </p>
+                         <div class="facebook"></div>
+                         <p class="contact-p-1">
+                              <img class="ico-phone" src="./icons/facebook-icon.webp" alt="ikona facebooka">
+                              Znajdziesz mnie również na Facebooku</p>
+                       </div>
+                    </div>
+               </div>
+      </section>
+    </main>
+</div>
+<div class="white-block eh">
+     <footer> &copy; 2023 | created by K Jurczyk</footer>
+</div>
+</div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
